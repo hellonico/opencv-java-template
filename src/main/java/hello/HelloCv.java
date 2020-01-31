@@ -3,6 +3,7 @@ package hello;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
+import origami.Origami;
 
 public class HelloCv {
     public static void main(String[] args) throws Exception {
