@@ -6,19 +6,11 @@ public class HelloDnn {
 
     public static void main(String[] args) {
         Origami.init();
-        doesntWork();
-        works();
-
-
+        loadDNNFromSpec();
     }
 
-    public static void doesntWork() {
+    public static void loadDNNFromSpec() {
         origami.Dnn.readNetFromSpec("networks.yolo:yolov2-tiny:1.0.0");
-    }
-
-    public static void works() {
-        String base ="/home/niko/.origami/yolov2-tiny-1.0.0.zip/yolov2-tiny/";
-        org.opencv.dnn.Dnn.readNetFromDarknet(base+"yolov2-tiny.cfg", base+"yolov2-tiny.weights");
     }
 
 

@@ -47,12 +47,12 @@
     <dependency>
       <groupId>origami</groupId>
       <artifactId>origami</artifactId>
-      <version>4.3.0-8</version>
+      <version>4.5.1-0</version>
     </dependency>
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure</artifactId>
-      <version>1.10.0</version>
+      <version>1.10.2</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
