@@ -12,3 +12,11 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
    -DgroupId=hello \
    -DartifactId=opencv-java-template
 ```
+
+Run on the CLI with:
+
+```shell
+ mvn exec:java
+```
+
+or import in your favorite editor.
